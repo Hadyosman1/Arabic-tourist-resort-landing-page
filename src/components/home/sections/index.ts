@@ -1,3 +1,4 @@
 import Hero from "./Hero";
+import StayWithUs from "./StayWithUs";
 
-export { Hero };
+export { Hero, StayWithUs };

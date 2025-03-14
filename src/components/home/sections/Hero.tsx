@@ -161,7 +161,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="bg-primary py-20" />
+        <div className="bg-primary py-18" />
       </div>
     </section>
   );
