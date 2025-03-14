@@ -24,7 +24,7 @@ const Header = () => {
         <NavLinks className="hidden shrink-0 items-center gap-7 lg:flex" />
 
         <Link href={"/"} className="shrink">
-          <Image src={headerLogo} alt="logo" width={235} height={64} />
+          <Image priority src={headerLogo} alt="logo" width={235} height={64} />
         </Link>
 
         <div className="hidden items-center gap-8 lg:flex">
@@ -72,7 +72,7 @@ const NavLinks = ({ className, children }: NavLinksProps) => {
 const BookingsLink = () => {
   return (
     <Link href={"#"} className={`flex items-center gap-2 ${linkClassName}`}>
-      <Image src={bookingsIcon} alt="icon" width={27} height={20} />
+      <Image priority src={bookingsIcon} alt="icon" width={27} height={20} />
       الحجوزات
       <div className="bg-primary absolute -bottom-2 left-0 h-1 w-0 rounded transition-all duration-200 group-hover:w-1/2" />
     </Link>

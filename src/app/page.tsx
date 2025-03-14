@@ -1,7 +1,9 @@
+import { Hero } from "@/components/home/sections";
+
 export default function Home() {
   return (
     <main>
-      <div className="container">Main</div>
+      <Hero />
     </main>
   );
 }

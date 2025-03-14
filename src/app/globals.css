@@ -25,7 +25,7 @@
 }
 
 @utility container {
-  @apply mx-auto px-4 lg:max-w-[1180px];
+  @apply mx-auto px-4 lg:max-w-[1200px];
 }
 
 body {
