@@ -1,4 +1,9 @@
-import { Hero, StayWithUs ,Packages} from "@/components/home/sections";
+import {
+  Hero,
+  StayWithUs,
+  Packages,
+  Reviews,
+} from "@/components/home/sections";
 
 export default function Home() {
   return (
@@ -6,6 +11,7 @@ export default function Home() {
       <Hero />
       <StayWithUs />
       <Packages />
+      <Reviews />
     </main>
   );
 }

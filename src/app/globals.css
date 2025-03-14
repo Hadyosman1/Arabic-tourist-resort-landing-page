@@ -28,6 +28,12 @@
   @apply mx-auto px-4 lg:max-w-[1200px];
 }
 
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-primary) var(--color-background);
+}
+
 body {
   background: var(--color-background);
   color: var(--color-foreground);
