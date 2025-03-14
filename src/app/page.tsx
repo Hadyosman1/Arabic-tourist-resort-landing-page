@@ -3,6 +3,7 @@ import {
   StayWithUs,
   Packages,
   Reviews,
+  SocialMedia,
 } from "@/components/home/sections";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <StayWithUs />
       <Packages />
       <Reviews />
+      <SocialMedia />
     </main>
   );
 }

@@ -7,6 +7,7 @@
   --color-primary-light: #279096;
   --color-beige-light: #fff7ef;
   --color-brown: #d48851;
+  --color-brown-200: hsl(27, 71%, 89%);
   --color-background: var(--color-beige-light);
   --color-foreground: var(--color-primary);
 
