@@ -1,7 +1,10 @@
+import Image from "next/image";
+import { Fragment } from "react";
+
 import heroRightPic1 from "@/../public/hero/right-1.png";
 import heroRightPic2 from "@/../public/hero/right-2.png";
 import heroRightPic3 from "@/../public/hero/right-3.png";
-import logoPic from "@/../public/hero/logo.png";
+import logoPic from "@/../public/logo.png";
 import expert1 from "@/../public/hero/experts/1.png";
 import expert2 from "@/../public/hero/experts/2.png";
 import expert3 from "@/../public/hero/experts/3.png";
@@ -9,9 +12,6 @@ import miniBusPic from "@/../public/hero/mini-bus.png";
 import calendarIcon from "@/../public/calendar-icon.png";
 import userIcon from "@/../public/user-icon.png";
 import searchIcon from "@/../public/search-icon.png";
-
-import Image from "next/image";
-import { Fragment } from "react";
 
 const bannerItems = [
   {
